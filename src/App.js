@@ -9,7 +9,6 @@ function App() {
   const userToken = localStorage.getItem("user");
   useEffect(() => {
     if(userToken==="1"){
-
       setIsLoggedIn(true);
     }
     
